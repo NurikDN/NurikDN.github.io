@@ -1,0 +1,27 @@
+.dark {
+  color: var(--text-light);
+  background-color: var(--primary-color);
+}
+
+.dark .header {
+  filter: invert(1);
+  box-shadow: 0 .25rem .25rem 0 rgba(255,255,255,.2);
+}
+
+.dark .logo {
+  filter: invert(1);
+  background-color: #fff;
+  color: var(--text-dark);
+}
+
+.dark .gamer {
+  color: var(--text-light);
+}
+
+.dark .gamer__trophies {
+  color: var(--highlight);
+}
+
+.dark .gamer__trophies::before {
+  color: var(--text-light);
+}
