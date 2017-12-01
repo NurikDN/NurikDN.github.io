@@ -14,6 +14,10 @@
   color: var(--text-dark);
 }
 
+.dark .logo a:last-child {
+  color: var(--text-light);
+}
+
 .dark .gamer {
   color: var(--text-light);
 }
